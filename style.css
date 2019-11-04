@@ -2,10 +2,11 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 18%;
+    width: 25%;
     height: 3%;
     color: white;
     text-align: left;
+    font-size: 20px;
 }
 
 nav ul{
@@ -46,9 +47,6 @@ div {
 body{
     background-image: url(giphy.gif);
     background-size: cover;
-    
-    
-    
     height: 100vh;
     padding:0;
     margin:0;
@@ -65,4 +63,12 @@ h1 {
     width: 400px;
     position: relative;
     left: 150px;
+}
+
+#basketball_image {
+    height: 230px;
+    width: 380px;
+    position: relative;
+    left: 1000px;
+    top: 10px;
 }
