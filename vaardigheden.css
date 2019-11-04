@@ -2,11 +2,11 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 18%;
-    height: 8%;
-    background-color: rgb(24, 207, 70);
+    width: 25%;
+    height: 3%;
     color: white;
     text-align: left;
+    font-size: 20px;
 }
 
 nav ul{
@@ -32,4 +32,12 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
+}
+
+body{
+    background-image: url(giphy.gif);
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
