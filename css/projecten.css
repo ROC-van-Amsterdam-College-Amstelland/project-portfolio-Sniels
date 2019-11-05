@@ -79,3 +79,7 @@ div {
     from {transform:scale(0)} 
     to {transform:scale(1)}
   }
+
+  nav ul li:hover {
+    background-color: rgb(255, 255, 255);
+}
