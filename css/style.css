@@ -42,10 +42,14 @@ div {
     font-weight: bold;
     color: rgb(0, 0, 0);
     float: right;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
 
 body{
-    background-image: url(giphy.gif);
+    background-image: url(/images/giphy.gif);
     background-size: cover;
     height: 100vh;
     padding:0;
@@ -56,6 +60,10 @@ h1 {
     color: rgb(0, 0, 0);
     position: relative;
     left: 717px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
 
 #game_image {
@@ -63,13 +71,35 @@ h1 {
     width: 400px;
     position: relative;
     left: 150px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
     
 }
 
 #basketball_image {
-    height: 230px;
+    height: 250px;
     width: 380px;
     position: relative;
     left: 1000px;
     top: 10px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
+
+nav ul li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
