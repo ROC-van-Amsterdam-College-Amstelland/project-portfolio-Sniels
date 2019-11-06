@@ -40,7 +40,7 @@ nav ul li a{
 }
 
 body{
-    background-image: url(/images/giphy.gif);
+    background-image: url('../images/giphy.gif');
     background-size: cover;
     height: 100vh;
     padding:0;
